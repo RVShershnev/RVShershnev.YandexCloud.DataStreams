@@ -1,0 +1,46 @@
+[
+  {
+	  "Miner": "SpimexOrderFtpMiner",
+    "Url": "ftp.spimex.com",
+    "Login": "saburov",
+    "Password": "59$VRE(MfXB(Gf(9iWg[",
+    "FileOptions": [
+      {
+        "FullPath": "spimex_petroleum_bestorders.csv",
+        "Period": 200,
+        "Truncated": false
+      }
+    ],
+    "DataStreamConfiguration": {
+      "KeyId": "YCAJEsi62cq53HB7RETJIdaQa",
+      "Secret": "YCNkzjzi9Br9Hixwyp_RvTXOjdQ_wq91PaTrxLtj",
+      "ServiceURL": "https://yds.serverless.yandexcloud.net",
+      "Region": "ru-central1",
+      "Folder": "b1g8mabehipeeuva9cq6",
+      "Database": "etnafircuqb84nfcl0lc",
+      "StreamName": "orders-stream"
+	  }
+  },
+  {
+	  "Miner": "SpimexTradeFtpMiner",
+    "Url": "ftp.spimex.com",
+    "Login": "saburov",
+    "Password": "59$VRE(MfXB(Gf(9iWg[",
+    "FileOptions": [
+      {
+        "FullPath": "spimex_petroleum_trades.csv",
+        "Period": 1000,
+        "Truncated": true
+      }
+    ],
+    "DataStreamConfiguration": {
+      "KeyId": "YCAJEsi62cq53HB7RETJIdaQa",
+      "Secret": "YCNkzjzi9Br9Hixwyp_RvTXOjdQ_wq91PaTrxLtj",
+      "ServiceURL": "https://yds.serverless.yandexcloud.net",
+      "Region": "ru-central1",
+      "Folder": "b1g8mabehipeeuva9cq6",
+      "Database": "etnafircuqb84nfcl0lc",
+      "StreamName": "trades-stream"
+	  }
+  }
+]

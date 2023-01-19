@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+	<Description>Yandex Cloud DataStream client adapter.</Description>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <AssemblyVersion>0.0.2.1</AssemblyVersion>
+    <Version>0.0.2-alpha</Version>
+    <Authors>Roman Shershnev</Authors>
+    <RepositoryUrl>https://github.com/RVShershnev/RVShershnev.YandexCloud.DataStreams</RepositoryUrl>
+	<Tags>DataStreams;YandexCloud</Tags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Kinesis" Version="3.7.*" />
+  </ItemGroup>
+
+
+
+	
+</Project>
